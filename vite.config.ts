@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/Nixora-Ai/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
